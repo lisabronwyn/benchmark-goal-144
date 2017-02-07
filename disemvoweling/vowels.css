@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans, Lato);
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    color: #fafafa;
+    background-image: url("letters.jpg");
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: cover;
+    padding-top: 30px;
+    padding-left: 250px;
+    -webkit-transition: all 12s ease-in-out;
+    -moz-transition: all 12s ease-in-out;
+    -o-transition: all 12s ease-in-out;
+    transition: all 5s ease-in-out;
+}
+
+body:hover {
+    background: url("modern.jpg");
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    position: fixed;
+    -webkit-transition: all 12s ease-in-out;
+    -moz-transition: all 12s ease-in-out;
+    -o-transition: all 12s ease-in-out;
+    transition: all 5s ease-in-out;
+}
+
+#vowels {
+    width: 225px;
+    height: 20px;
+}
+
+#checkButton {
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    background-color: #666;
+    text-shadow: 2px 2px 4px #000000;
+}
