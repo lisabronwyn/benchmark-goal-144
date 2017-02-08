@@ -37,6 +37,7 @@ body:hover {
 #vowels {
     width: 225px;
     height: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #checkButton {
