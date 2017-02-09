@@ -1,4 +1,4 @@
-const foo = {
+const foo = sorted() => {
     "name": "William Shakespeare",
     "dead": true,
     "works": [{
@@ -18,6 +18,6 @@ const foo = {
     ]
 };
 
-for(let prop in foo) {
-  console.log(prop[3])
-}
+let sorted = foo.map(function(o) {
+    return o.number;
+});
