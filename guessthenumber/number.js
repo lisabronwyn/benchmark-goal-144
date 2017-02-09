@@ -17,7 +17,7 @@ document.getElementById("checkButton").onclick = function() {
 }
 
 function checkGuess(guess) {
-    if (guess == random) { 
+    if (guess == random) {
         alert("You win!");
         document.getElementById("checkButton").disabled = true;
     }

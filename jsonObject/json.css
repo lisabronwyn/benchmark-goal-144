@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 26px;
-    color: #fafafa;
+    font-size: 36px;
+    color: #000;
     background-image: url("snow.jpg");
     no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -17,18 +17,4 @@ body {
     -moz-transition: all 12s ease-in-out;
     -o-transition: all 12s ease-in-out;
     transition: all 5s ease-in-out;
-}
-
-#json {
-    width: 225px;
-    height: 20px;
-}
-
-#checkButton {
-    font-size: 15px;
-    width: 150px;
-    height: 30px;
-    color: #fff;
-    background-color: #666;
-    text-shadow: 2px 2px 4px #000000;
 }
