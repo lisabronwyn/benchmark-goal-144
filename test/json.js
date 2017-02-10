@@ -1,10 +1,9 @@
-const expect = require('chai').expect
+import expect from 'chai'
+import fibonacci from '../src/json'
 
-import json from '../src/json.js'
+describe('json()', function(){
 
-describe('json', () => {
-  it('is a function', () => {
-    expect(json("It is a good day")).to.equal("itIsAGoodDay")
+  it('should be a function', function(){
+    expect(json).to.be.a('function')
   })
-
-}
+})
