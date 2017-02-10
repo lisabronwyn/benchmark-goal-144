@@ -1,4 +1,5 @@
-var jsonStrings = {
+export default function json() {
+  const jsonStrings = {
     "name": "William Shakespeare",
     "dead": true,
     "works": [{
@@ -16,7 +17,5 @@ var jsonStrings = {
         "tumblr",
         "4chan"
     ]
+  }
 };
-
-var myJSON = JSON.stringify(jsonStrings);
-alert(myJSON);
