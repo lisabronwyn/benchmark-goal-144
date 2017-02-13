@@ -1,0 +1,31 @@
+{
+  "name": "outstanding-badger-benchmark-goal-144",
+  "version": "1.0.0",
+  "description": "15 benchmark exercises",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisabronwyn/outstanding-badger-benchmark-goal-144.git"
+  },
+  "author": "lisabronwyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lisabronwyn/outstanding-badger-benchmark-goal-144/issues"
+  },
+  "homepage": "https://github.com/lisabronwyn/outstanding-badger-benchmark-goal-144#readme",
+  "dependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "chai": "^3.5.0",
+    "chai-change": "^2.1.2",
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0"
+  }
+}
